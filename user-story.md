@@ -1,0 +1,6 @@
+- Visiting GET / should redirect the user to GET /books.
+- Visiting GET /books should display a list of books to purchase as well as a form for adding a new book item.
+- The name of each book item must be in an <li> element.
+- The list of books is read from the books.json file which stores each item.
+- The form to add a new book item allows the book name to be specified.
+- The form submits to POST /books which saves the new item to the books.json file.
